@@ -46,8 +46,8 @@ A full-stack URL Shortener application built with a **Node.js Express backend** 
 
 ### **2. Clone the Repository**
 ```bash
-git clone https://github.com/au-syntaxwhiz/url-shortner.git
-cd url-shortener
+git clone git@github.com:Daniyal-j/URLite.git
+cd URLite
 ```
 
 ### **3. Environment Configuration**
@@ -55,7 +55,7 @@ cd url-shortener
 
 #### Backend `.env`
 ```env
-MONGO_URI=mongodb://mongo:27017/url-shortener
+MONGO_URI=mongodb://mongo:27017/URLite
 REDIS_URL=redis://redis:6379
 RATE_LIMIT_WINDOW_MS=900000
 RATE_LIMIT_MAX=50
